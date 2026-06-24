@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>teste 2 java script</title>
+  <script>
+    //trabalhando com entrada de informações
+    //alert(); -> transmite mensagem pelo navegador
+    alert("hello world");
+    //input() = prompt()
+    let nome = prompt("insira seu nome");
+    alert(`seja bem vindo, ${nome}`);
+    //teste 1 somando 2 números
+    /*let n1 = Number(prompt("digite o primeiro número"));
+    let n2 = Number(prompt("digite o segundo número"));
+    let n3 = n1 + n2;
+    alert(`a soma de ${n1} e de ${n2} é ${n3}`);*/
+    //teste 2 -> faça a média de 3 notas e exiba se ele foi aprovado a partir da média mínima
+    let n1 = Number(prompt("insira sua priemira nota"));
+    let n2 = Number(prompt("insira a segunda nota"));
+    let n3 = (n1 + n2)/2;
+    if(n3 >= 6){
+      alert(`você passou com ${n3}`);
+    }
+    if(n3 < 6){
+      alert(`você reprovou com ${n3}`);
+    }
+
+
+  </script>
+</head>
+<body>
+  <h1>teste 2 java</h1>
+</body>
+</html>

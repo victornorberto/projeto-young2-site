@@ -1,0 +1,95 @@
+header {
+  background-image: url('https://wallpaperaccess.com/full/117930.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-shadow: 2px 2px 1px #3c4cd6;
+  text-align: center;
+  font-size: 100px;
+}
+body #lupinis {
+  text-align: center;
+  background-image: linear-gradient(to bottom, #292a31, #3c4cd6);
+  color: white;
+}
+img {
+  object-fit: cover;
+}
+#asterions {
+  text-align: center;
+  background-image: linear-gradient(to bottom, #3c4cd6, #ff9400);
+}
+body h3 {
+  font-size: 50px;
+}
+body {
+  background-color: black;
+  color: white;
+}
+section {
+  text-align: center;
+}
+section h2 {
+  font-size: 50px;
+}
+
+#drakmirs {
+  background-image: linear-gradient(to bottom, #ff9400, #40d600);
+}
+ul,
+ol {
+  list-style-position: inside;
+}
+#sylvias {
+  background-image: linear-gradient(to bottom, #40d600, #8a7300);
+}
+#terraks {
+  background-image: linear-gradient(to bottom, #8a7300, #2e106e);
+}
+#lunaris {
+  background-image: linear-gradient(to bottom, #2e106e, #220c4f);
+}
+label {
+  text-align: center;
+}
+nav {
+  text-align: left;
+  background-image: url(https://i.imgur.com/Nik8FRI.jpeg);
+  background-position: left bottom;
+  width: 260px;
+}
+.criarflex {
+  flex-direction: column;
+  flex: 1 1 0;
+  display: flex;
+}
+
+.criarflex aside {
+  width: 220px;
+  min-height: 100vh;
+
+  padding: 20px;
+
+  position: sticky;
+  top: 0;
+  background-color: #8a7300;
+  background-image: url(https://i.imgur.com/VirMlmg.png);
+  background-position: center;
+}
+
+.criarflex #lupinis,
+.criarflex #asterions,
+.criarflex #drakmirs,
+.criarflex #sylvias,
+.criarflex #terraks,
+.criarflex #lunaris {
+  display: flex;
+  gap: 30px;
+
+  width: 100%;
+}
+.criarflex aside a {
+  color: #9b1c31;
+  display: flex;
+  margin: 40px auto;
+}

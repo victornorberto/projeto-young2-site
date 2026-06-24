@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>taroklan</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body id="cadastro">
+    <header>
+      <h1>
+        <br />
+        Taroklan, Livro do Jogador
+      </h1>
+      <p>O único livro de um sistema único</p>
+    </header>
+    <nav>
+      <a href="cadastro.html">Cadastre-se</a><br />
+      <a href="capitulo1.html">capítulo 1 - criação de personagens</a><br />
+      <a href="index.html">página principal</a><br />
+    </nav>
+    <section>
+      <article>
+        <h2>sistema</h2>
+        <h3>sobre o sistema</h3>
+        <p></p>
+      </article>
+      <article>
+        <p>
+          <img
+            src="https://i.imgur.com/3HCPAdk.jpeg"
+            alt="ficha de personagem"
+            width="400"
+            id="imagem_cadastro"
+          />
+          <br />
+          para criar o seu personagem, você deve escolher sua raça, sua classe,
+          sua sub-classe, seu nome, idade, personalidade, e background, além de
+          distribuir seus atributos com 20 pontos para gastar. essas informações
+          podem ser encontradas no capítulo 1.
+        </p>
+      </article>
+      <article>
+        <h2>crie sua ficha</h2>
+        <form action="">
+          <label for="nome">Nome completo</label><br />
+          <input
+            type="text"
+            id="nome"
+            required
+            size="30"
+            placeholder="digite seu nome aqui"
+          /><br />
+          <label for="idade">Idade</label><br />
+          <input type="number" id="idade" placeholder="digite sua idade" />
+          <br />
+          <label for="raça">sua raça</label><br />
+          <input type="text" id="raça" placeholder="ex: drakmir" /><br />
+          <label for="sub-class">sua classe/sub-classe</label><br />
+          <input
+            type="text"
+            id="sub-class"
+            placeholder="ex: spellblade"
+          /><br />
+          <label for="força">sua força</label><br />
+          <input
+            type="number"
+            id="força"
+            placeholder="capacidade física"
+          /><br />
+          <label for="agilidade">sua agilidade</label><br />
+          <input
+            type="number"
+            id="agilidade"
+            placeholder="velocidade e desvios"
+          /><br />
+          <label for="inteligencia">sua inteligência</label><br />
+          <input
+            type="number"
+            id="inteligencia"
+            placeholder="magias e problemas"
+          /><br />
+          <label for="defesa">sua defesa</label><br />
+          <input
+            type="number"
+            id="defesa"
+            placeholder="redução de dano"
+          /><br />
+          <label for="carisma">seu carisma</label><br />
+          <input
+            type="number"
+            id="carisma"
+            placeholder="interação com NPCs"
+          /><br />
+          <label for="backstory">sua história passada</label><br />
+          <input
+            type="text"
+            id="backstory"
+            size="100"
+            max="500"
+            placeholder="de onde veio? o que te motivou a ir para a vila?"
+          /><br />
+          <button type="button" onclick="escreverFicha()">Enviar</button>
+          <button type="reset">Resetar formulário</button>
+          <p id="nomeP"></p>
+          <p id="idadeP"></p>
+          <p id="racaP"></p>
+          <p id="classeP"></p>
+          <p id="forcaP"></p>
+          <p id="agilidadeP"></p>
+          <p id="inteligenciaP"></p>
+          <p id="defesaP"></p>
+          <p id="carismaP"></p>
+          <p id="loreP"></p>
+          <button type="button" onclick="enviar()">confirmar envio</button>
+          <button type="button" onclick="cancelar()">cancelar envio</button>
+        </form>
+        <p>Aproveite o jogo!!!</p>
+      </article>
+      <article></article>
+      <article></article>
+    </section>
+    <footer>
+      <a href="#">voltar ao início</a>
+    </footer>
+  </body>
+</html>

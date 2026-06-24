@@ -1,0 +1,67 @@
+
+body {
+  background-color: lightcoral;
+  margin-left: 0px;
+}
+h1,
+h2,
+h3,
+p {
+  color: rgba(2, 0, 0, 0.87);
+  text-align: center;
+}
+#parque-regional-do-pilat h2 {
+  background-color: rgb(252, 196, 128);
+}
+#pico-da-gomeira h2 {
+  background-color: chartreuse;
+}
+#robeasca h2 {
+  background-color: aquamarine;
+  color: brown;
+}
+img {
+  width: 400px;
+}
+#parque-regional-do-pilat {
+  width: 50%;
+  background-color: white;
+}
+#robeasca {
+  width: 50%;
+  background-color: white;
+}
+#robeasca img {
+  width: fit-content;
+}
+#parque-regional-do-pilat {
+  width: auto;
+}
+#galeria {
+  width: 300px;
+  height: 400px;
+  background-color: rgb(50, 119, 96);
+  /* margin: top right bottom left
+  margin: 30px 40px; altera em top-bottom e em left-right, respectivamente
+  margin: 10 px auto; centraliza após ter um valor definido
+  */
+  margin: 10px auto;
+  padding: 80px;
+  border-width: 30px 40px;
+  border-color: rgb(255, 0, 0);
+  border-style: double groove;
+}
+body{
+  display: flex;
+  flex-direction: column;
+}
+.criarflex{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: stretch;
+}
+.criarflex div{
+  flex: 1 1 0; /*pode crescer, pode diminuir, tamanho base*/
+  border-style: double;
+}

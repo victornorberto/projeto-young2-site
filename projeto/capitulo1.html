@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>taroklan</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Taroklan, Livro do Jogador</h1>
+      <p>O único livro de um sistema único</p>
+    </header>
+    <nav>
+      <a href="cadastro.html">Cadastre-se</a> <br />
+      <a href="capitulo1.html">capítulo 1 - criação de personagens</a> <br />
+      <a href="index.html">página principal</a> <br />
+    </nav>
+    <div class="criarflex">
+      <aside>
+        <a href="#criar_personagem">como criar o personagem</a> <br />
+        <a href="#raças">lista de raças</a> <br />
+        <a href="#lupinis">lupinis</a> <br />
+        <a href="#asterions">asterions</a> <br />
+        <a href="#drakmirs">drakmirs</a> <br />
+        <a href="#sylvias">sylvias</a> <br />
+        <a href="#terraks">terraks</a> <br />
+        <a href="#lunaris">lunaris</a> <br />
+      </aside>
+      <section>
+        <h2>Capítulo 1 - criação de personagens</h2>
+        <article id="criar_personagem">
+          <p>
+            você deve criar um personagem que seja, de preferência, detalhado,
+            preenchido na página de cadastro. inclua esses detalhes:
+          </p>
+          <br />
+          <ol>
+            <b><li>raça (checar adiante)</li></b>
+            <b><li>idade:</li></b>
+            <b><li>classe e subclasse (capítulo 2)</li></b>
+            <b><li>história e propósito</li></b>
+            <b><li>especialização no navio</li></b>
+            <b><li>distribua vinte pontos em:</li></b>
+          </ol>
+          <ul>
+            <li>força</li>
+            <li>agilidade</li>
+            <li>inteligência</li>
+            <li>defesa</li>
+            <li>carisma</li>
+          </ul>
+        </article>
+        <article id="racas" class="criarflex">
+          <h2>raças</h2>
+          <div id="lupinis" class="criarflex">
+            <h3>Lupinis</h3>
+            <p>
+              lobos humanóides de capacidades físicas impressionantes, com
+              agilidade enorme <br />
+              <img
+                src="https://i.imgur.com/k3Oxls2.jpeg"
+                alt="lupinis"
+                width="250"
+              />
+            </p>
+            <h4>atributos:</h4>
+            <ul>
+              <b><li>-1 de inteligência</li></b>
+              <b><li>+2 de agilidade</li></b>
+              <b><li>+1 de força</li></b>
+            </ul>
+            <h4>Habilidade única - modida do animal</h4>
+            <p>avança para frente e morde o inimigo, causando sangramento</p>
+            <h4>FoCo 1</h4>
+            <p>
+              ganha +1 de agilidade, sua habilidade passa a causar putrefação
+            </p>
+            <h4>FoCo 2</h4>
+            <p>
+              seus arranhões têm mais chance de causar sangramento <br />
+              afinidade: imbutidas/sangue
+            </p>
+          </div>
+          <div id="asterions" class="criarflex">
+            <h3>asterions</h3>
+            <p>
+              seres alados que nasceram das correntes de ar geradas por tirius
+              <br />
+              <img
+                src="https://i.imgur.com/lDYZscS.jpeg"
+                alt="asterion"
+                width="250"
+              />
+            </p>
+            <h4>atributos</h4>
+            <ul>
+              <b><li>visão mais apurada</li></b>
+              <b><li>+2 em percepção</li></b>
+              <b><li>+1 em agilidade</li></b>
+              <b><li>-1 de força</li></b>
+            </ul>
+            <h4>habilidade única - corte de vento</h4>
+            <p>
+              balança suas asas na direção do oponente, como se cortasse o ar.
+              habilidade à distância
+            </p>
+            <h4>FoCo1</h4>
+            <p>
+              suas asas ficam negras como uma tempestade, reforçando-se com
+              corrupção
+            </p>
+            <h4>FoCo 2</h4>
+            <p>
+              sua habilidade única causa um corte de energia, que deixa seus
+              inimigos com o debuff "eletrificado" <br />
+              afinidade: longa distância/vento
+            </p>
+          </div>
+          <div id="drakmirs" class="criarflex">
+            <h3>drakmir</h3>
+            <p>
+              tirius criou o sol, e do sol vieram os dragões. drakmirs são
+              descendentes de dragões <br />
+              <img
+                src="https://i.imgur.com/AP2T2Sv.jpeg"
+                alt="drakmir"
+                width="250"
+              />
+            </p>
+            <h4>atributos</h4>
+            <ul>
+              <b><li>+2 de força</li></b>
+              <b><li>+1 de carisma</li></b>
+              <b><li>-1 de agilidade</li></b>
+              <b><li>-2 em teste de percepção</li></b>
+            </ul>
+            <h4>habilidade única - sopro do dragão</h4>
+            <p>solta um jato de fogo pela boca como um lança-chamas</p>
+            <h4>FoCo 1</h4>
+            <p>ganha +1 de força</p>
+            <h4>FoCo 2</h4>
+            <p>
+              seu jato de fogo sai roxo, como púrpura <br />
+              afinidade: pesadas/fogo
+            </p>
+          </div>
+          <div id="sylvias" class="criarflex">
+            <h3>sylvia</h3>
+            <p>
+              taroklan precisava de vida, e da vegetação, começaram a brotar
+              sylvias. são fadinhas do mato, têm controle sobre as plantas
+              <br />
+              <img
+                src="https://i.imgur.com/GdGXEPi.jpeg"
+                alt="sylvia"
+                width="250"
+              />
+            </p>
+            <h4>atributos</h4>
+            <ul>
+              <b><li>+2 de agilidade</li></b>
+              <b><li>+1 em carisma</li></b>
+              <b><li>+1 em inteligência</li></b>
+              <b><li>-2 de força</li></b>
+              <b><li>+5% de dano tomado</li></b>
+            </ul>
+            <h4>habilidade única - cura em área</h4>
+            <p>cura todos os aliados dentro da área de cura</p>
+            <h4>FoCo 1</h4>
+            <p>
+              suas armas começas a soltar vinhas de corrupção no inimigo, com 5%
+              de chance de paralisia
+            </p>
+            <h4>FoCo 2</h4>
+            <p>
+              sua habilidade única passa a drenar vida de inimigos que estiverem
+              na área de efeito <br />
+              afinidade: plantas
+            </p>
+          </div>
+          <div id="terraks" class="criarflex">
+            <h3>terraks</h3>
+            <p>
+              anões, ótimos em forjar coisas <br />
+              <img
+                src="https://i.imgur.com/0UVmVvk.jpeg"
+                alt="terrak"
+                width="250"
+              />
+            </p>
+            <h4>atributos</h4>
+            <ul>
+              <b><li>-1 de agilidade</li></b>
+              <b><li>-1 de carisma</li></b>
+              <b><li>+2 de força</li></b>
+              <b><li>+2 de defesa</li></b>
+            </ul>
+            <h4>habilidade única - subir estaca</h4>
+            <p>
+              levanta uma coluna de pedra afiada logo abaixo do inimigo, com 2%
+              de chance de empalamento
+            </p>
+            <h4>FoCo 1</h4>
+            <p>fica com aspecto "pedregoso", ganhando +1 de defesa</p>
+            <h4>FoCo 2</h4>
+            <p>
+              sua habilidade passa a levantar obsidiana, com 5% de chance de
+              empalar e causar mais dano <br />
+              afinidade: martelos/pedra
+            </p>
+          </div>
+          <div id="lunaris" class="criarflex">
+            <h3>lunaris</h3>
+            <p>
+              têm afinidade com astros e o espaço. parecem que estão sempre
+              "viajando na maionese" <br />
+              <img
+                src="https://i.imgur.com/gnK1jOp.jpeg"
+                alt="lunaris"
+                width="250"
+              />
+            </p>
+            <h4>atributos</h4>
+            <ul>
+              <b><li>+2 de agilidade</li></b>
+              <b><li>+3 de inteligência</li></b>
+              <b><li>-2 de força</li></b>
+            </ul>
+            <h4>habilidade única - atirar estrela</h4>
+            <p>uma bola de plasma com alto potencial mágico</p>
+            <h4>FoCo 1</h4>
+            <p>
+              +1 de inteligência. seu corpo parece refletir as estrelas, como se
+              fosse o próprio céu
+            </p>
+            <h4>Foco 2</h4>
+            <p>
+              sua habilidade única agora é uma supernova, que explode ao colidir
+              <br />
+              afinidade: astral/conjurada
+            </p>
+          </div>
+        </article>
+      </section>
+    </div>
+    <footer>
+      <a href="#">voltar ao início</a>
+    </footer>
+  </body>
+</html>
